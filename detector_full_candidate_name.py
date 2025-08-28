@@ -8,8 +8,10 @@ import sys
 # Standalone PII regexes and matchers
 PHONE_REGEX = re.compile(r"\b[6-9]\d{9}\b")
 AADHAR_REGEX = re.compile(r"\b\d{4}\s?\d{4}\s?\d{4}\b")
+# Indian passport patterns: 1 or 2 alpha + 7 digits
 PASSPORT_REGEX = re.compile(r"\b([A-PR-WYa-pr-wy][0-9]{7}|[A-PR-WYa-pr-wy]{2}[0-9]{7})\b")
 UPI_REGEX = re.compile(r"\b[\w\.\-]{2,}@[a-zA-Z]{2,}\b")
+
 EMAIL_REGEX = re.compile(r"\b[\w\.-]+@[\w\.-]+\.\w+\b")
 IP_REGEX = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$")
 

@@ -2,7 +2,7 @@
 
 ## Recommended Architecture
 
-Given Flixkart’s architecture , the optimal, scalable, and low-latency deployment for the PII Detector & Redactor is as follows:
+Given Flixkart’s architecture, the optimal, scalable, and low-latency deployment for the PII Detector & Redactor is as follows:
 
 ### **1. API Gateway or Ingress Plugin (Preferred)**
 
